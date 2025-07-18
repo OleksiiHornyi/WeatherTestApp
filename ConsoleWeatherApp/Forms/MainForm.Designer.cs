@@ -12,9 +12,9 @@ namespace ConsoleApp.Forms
         private void InitializeComponent()
         {
             this.introTxt = new Label { Top = 15, Left = 20, Width = 300 };
-            this.introTxt.Text = "Вкажіть місто або натисніть пошук";
+            this.introTxt.Text = "Р’РєР°Р¶С–С‚СЊ РјС–СЃС‚Рѕ Р°Р±Рѕ РЅР°С‚РёСЃРЅС–С‚СЊ РїРѕС€СѓРє";
             this.txtCity = new TextBox { Top = 40, Left = 20, Width = 200 };
-            this.btnGetWeather = new Button { Text = "Пошук", Top = 40, Left = 230 };
+            this.btnGetWeather = new Button { Text = "ГЏГ®ГёГіГЄ", Top = 40, Left = 230 };
             this.lblCity = new Label { Top = 80, Left = 20, Width = 300 };
             this.lblTemp = new Label { Top = 110, Left = 20, Width = 300 };
             this.lblDesc = new Label { Top = 140, Left = 20, Width = 300 };
@@ -26,7 +26,7 @@ namespace ConsoleApp.Forms
             this.Controls.AddRange(new Control[] {
                 introTxt, txtCity, btnGetWeather, lblCity, lblTemp, lblDesc, lblIcon, lblStatus });
 
-            this.Text = "Погода — wttr.in";
+            this.Text = "ГЏГ®ГЈГ®Г¤Г  вЂ” wttr.in";
             this.Width = 400;
             this.Height = 300;
             
