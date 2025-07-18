@@ -26,7 +26,7 @@ namespace ConsoleApp.Forms
             this.Controls.AddRange(new Control[] {
                 introTxt, txtCity, btnGetWeather, lblCity, lblTemp, lblDesc, lblIcon, lblStatus });
 
-            this.Text = "Ïîãîäà — wttr.in";
+            this.Text = "Погода — wttr.in";
             this.Width = 400;
             this.Height = 300;
             
